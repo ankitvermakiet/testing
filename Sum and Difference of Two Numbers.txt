@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int val1,val2;
+    float fval1,fval2;
+    
+    scanf("%d %d %f %f", &val1, &val2, &fval1, &fval2);
+   
+    printf("%d %d\n%.1f %.1f", val1+val2,val1-val2, fval1+fval2, fval1-fval2);
+    
+    
+    //Sum=val1+val2;
+   // Diff=val1-val2;
+   
+    //printf("Enter values as i/p");
+    
+
+    return 0;
+}
